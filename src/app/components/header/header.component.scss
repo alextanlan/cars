@@ -7,11 +7,22 @@
   top: 0;
   left: 0;
   box-shadow: 0 2px 20px #0003;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   &-logo {
     display: block;
     width: 200px;
     height: 100%;
     padding-left: 80px;
+  }
+
+  .auth-block {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
   }
 }
