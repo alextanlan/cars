@@ -1,1 +1,3 @@
-<p>cars-list works!</p>
+<div class="cars-list-container">
+  <app-car-card *ngFor="let car of (cars$ | async)" [carData]="car"></app-car-card>
+</div>
