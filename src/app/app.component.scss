@@ -1,0 +1,12 @@
+@import "../styles/variables";
+
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  main {
+    min-height: calc(100vh - $header-height - $footer-height);
+    margin-top: $header-height;
+  }
+}
